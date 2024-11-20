@@ -1,0 +1,24 @@
+test_render.slow_render:
+  path: '/test/render/slow-render'
+  defaults:
+    _title: 'Slow Render'
+    _controller: '\Drupal\test_render\Controller\TestRenderController::slowRender'
+  requirements:
+    # Free access.
+    _access: 'TRUE'
+test_render.pre_render:
+  path: '/test/render/pre-render'
+  defaults:
+    _title: 'PreRender'
+    _controller: '\Drupal\test_render\Controller\TestRenderController::preRender'
+  requirements:
+    # Free access.
+    _access: 'TRUE'
+test_render.lazy_builder:
+  path: '/test/render/lazy-builder'
+  defaults:
+    _title: 'Lazy Builder'
+    _controller: '\Drupal\test_render\Controller\TestRenderController::lazyBuilder'
+  requirements:
+    # Free access.
+    _access: 'TRUE'

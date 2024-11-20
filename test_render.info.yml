@@ -1,0 +1,7 @@
+name: Test - Render
+type: module
+description: Test/sample module focusing on rendering.
+core_version_requirement: ^10 || ^11
+dependencies:
+  - page_cache
+  - dynamic_page_cache
